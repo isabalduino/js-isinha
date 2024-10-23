@@ -1,15 +1,79 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.4/p5.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.4/addons/p5.sound.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <meta charset="utf-8" />
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo do Abate</title>
 
-  </head>
-  <body>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+    
+</head>
+<body>
     <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.webp" alt="">
+            <p>Em um mundo onde a magia não tem limites e humanos e não humanos estão juntos no dia a dia um jogo avia começado e era chamado de Jogo do Abate</p>          </p>
+            <button class="btn-proximo" data-proximo="1">Participar do jogo do Abate</button>
+            <button class="btn-proximo" data-proximo="2">Ajudar os que estão em perigo</button>
+        </div>
+
+        <div class="passo" id="passo-1">
+            <p>Para participar do Jogo  eu tive que ir no centro da cidade em Dotombori, onde tentaria encontrar ele, o motivo de eu estar aqui, tenho certeza que ele não perdeu tempo e já esta até lutando</p>
+            <button class="btn-proximo" data-proximo="3">atrás do Itadori e lutar ao seu lado</button>
+            <button class="btn-proximo" data-proximo="4"> Continuar seguindo em frente e derrotando maldições</button>
+        </div>
+
+        <div class="passo" id="passo 2"> 
+        <p>Na cidade Sendai no Japão, onde o caos estava acontecendo eu corria desesperadamente, torcendo para que  minha família  esteja bem mas logo a frente eu o vi, uma maldição monstruosa a minha frente</p>
+        <button class="btn-proximo" data-proximo="5">Sair correndo de medo o mais rápido possivel</button>
+        <button class="btn-proximo" data-proximo="6">Bater de frente mesmo não tendo a menor chance</button>
+        </div>
+
+        <div class="passo" id="passo-3"> 
+            <p>Dentro do jogo que era envolvido por uma barreira para ninguém que entrase podesse sair e quem  não tivese o minímo de energia amaldiçoada não conseguiria entrar, correndo pelas ruas vejo um inimigo a frente que n dera nem tem de uma reação, ele me golpea com tanta força que sou jogada para trás e acerto as costas em um ônibus ele avança em mim enquanto ainda estou caida e antes que ele encerasse a luta dando o golpe final, Itadore me salva</p>
+            <button class="btn-proximo" data-proximo="8"> E com um golpe derrota a maldição</button>
+        </div>
+ 
+        <div class="passo" id="passo-4"> 
+            <img src="img/cenario-passo4-volar-casa.webp" alt="seguindo meu caminho pela cidade destruida">
+        <p>Tirando meus pensamentos do Itadori, continuo meu caminho a procura da maldição que teria criado esse jogo</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+         <p>Começo a correr desesperadamente e quando me viro para ver se a maldição ainda esta tentando me matar, mas já não estava mais lá</p>
+         <button class="btn-proximo" data-proximo="6">Mas quando me viro para frente a maldição estava bem ali</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>E esse realmente foi meu fim, ele levanta o braço e com um golpe minha cabeça já não estava em meu corpo</p>
+            <button class="btn-proximo" data-proximo="7">Pensando em minha vida eu me afundo  em minhas sombras e vou parar no outro quarteirão
+                e corro para manter minha vida</button>
+           </div>
+         
+           <div class="passo" id="passo 7"> 
+            <p>Mesmo com um imenso medo, respiro fundo e concentro minha energia toda, e invoco meus shikigames que vem através de sombras e me preparo para a provalvel luta que ira acontecer</p>
+            <button class="btn-proximo" data-proximo="8">Meu ataque é o primeiro, os cães se movendo de um modo tão veloz que a maldição fica supresa quando o seu braço direito foi arrancado</button>
+            <button class="btn-proximo" data-proximo="9">Mas mesmo com o braço arrancado a maldição me ataca com uma força esmagadora e sou jogada no chão e começo a tossir sangue sem parar, a maldição avança e continua me desferindo golpes sem cessar.</button>
+            </div>
+    
+
+
+
+
+
+
+
+
+
+
+
+
     </main>
-    <script src="sketch.js"></script>
-  </body>
+    
+    <script src="script.js"></script>
+</body>
 </html>
